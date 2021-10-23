@@ -1,0 +1,1 @@
+export { default as functionGateway } from './functionGateway.js'

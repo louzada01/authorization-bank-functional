@@ -1,0 +1,13 @@
+{
+  "name": "authorization",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "authorization": "node index.js < operations",
+    "test:createAccount": "node ./__test__/createAccount.spec.js",
+    "test:transactionAccountValue": "node ./__test__/transactionAccountValue.spec.js",
+    "test" : "yarn test:createAccount && yarn test:transactionAccountValue"
+  }
+}
